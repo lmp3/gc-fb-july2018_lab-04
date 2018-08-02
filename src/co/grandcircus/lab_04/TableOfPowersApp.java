@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // Task: Lab 04 - Pair program and display a table of powers.
 
-public class TableOfPowers {
+public class TableOfPowersApp {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -13,7 +13,8 @@ public class TableOfPowers {
 		// do runs the the sysout's at least once before the loop starts.
 		do {
 		
-		System.out.println("Enter a whole number that is greater than 1 and less than 1,000. :");
+		// Bonus TODO: Validation to only do numbers between 1 and 50.
+		System.out.println("Enter a whole number that is greater than 1 and less than 50. :");
 		int userInt = input.nextInt();
 		
 		System.out.println("Number\t\tSquared\t\tCubed");
